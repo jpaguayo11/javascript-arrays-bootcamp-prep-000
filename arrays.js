@@ -11,6 +11,6 @@ function addElementToBeginningOfArray(array, element) {
 }
 function destructivelyAddElementToBeginningOfArray(array, element) {
   var modifyOld = [parseInt(array)]
-  modifyOld.unshift(`${element}`)
+  modifyOld.unshift(element)
   return modifyOld
 }
