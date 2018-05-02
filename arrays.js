@@ -15,6 +15,5 @@ function addElementToEndOfArray(array, element) {
   return createNew
 }
 function accessElementInArray(array, index) {
-  var accessArray = [parseInt(array)]
-  return accessArray[parseInt(index)]
+  return array[index]
 }
