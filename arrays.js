@@ -5,9 +5,8 @@ var chocolateBars = new Array(
   "skittles"
 )
 function addElementToBeginningOfArray(array, element) {
-  var createNew = [parseInt(array)]
-  var createNew = [element, ...createNew]
-  return createNew
+  array = [element, ...array]
+  return array
 }
 function destructivelyAddElementToBeginningOfArray(array, element) {
   array.unshift(element)
