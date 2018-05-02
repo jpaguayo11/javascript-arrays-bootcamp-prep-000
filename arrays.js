@@ -18,6 +18,10 @@ function addElementToEndOfArray(array, element) {
   var createNew = [...createNew, element]
   return createNew
 }
+function destructivelyAddElementToEndOfArray(array, element) {
+  array.push(element)
+  return array
+}
 function accessElementInArray(array, index) {
   return array[index]
 }
