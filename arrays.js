@@ -9,8 +9,8 @@ function addElementToBeginningOfArray(array, element) {
   var createNew = [element, ...createNew]
   return createNew
 }
-function destructivelyAddElementToBeginningOfArray(array, element) {
-  var modifyOld = [parseInt(array)]
-  modifyOld.unshift(element)
-  return modifyOld
+function addElementToEndOfArray(array, element) {
+  var createNew = [parseInt(array)]
+  var createNew = [...createNew, element]
+  return createNew
 }
